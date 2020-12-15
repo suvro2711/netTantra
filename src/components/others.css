@@ -1,0 +1,48 @@
+.othersDiv{
+    width: 100%;
+    height:15%;
+    /*border-style: solid;
+     border-color: black;*/
+    justify-content: center; 
+    display:flex;
+    align-items: center;
+    margin-top:5%;
+}
+
+.othersimageDiv{
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    height:100%;
+    /* border-style: solid;
+    border-color: black; */
+}
+.othersimageDiv>img{
+    /* border-style: solid;
+    border-color: black; */
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    position: relative;
+    left: 10%;
+}
+.otherstextDiv{
+    flex-grow:3;
+    flex-shrink: 0;
+    flex-basis: 0;
+    height:100%;
+    /* border-style: solid;
+    border-color: black; */
+    margin-left: 0%;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 30px;
+    font-size: small;
+    padding-left:10% ;
+    color: #8B8B8B  ;
+    position: relative;
+    top:-5%
+}

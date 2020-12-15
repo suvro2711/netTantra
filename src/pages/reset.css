@@ -1,0 +1,152 @@
+.resetInputHolder{
+    width:30vw;
+    height:40vw;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.resetLogoHolder{
+    width:100%;
+    flex-grow: 0.6;
+    flex-shrink: 0;
+    flex-basis: 0%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #30dbcf;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetContent{
+    width: 100%;
+    flex-grow: 4;
+    flex-shrink: 0;
+    flex-basis: 0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resetContent>*{
+    flex-grow: 1.8;
+    flex-shrink: 0;
+    flex-basis: 0%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border-style: solid;
+    border-color: cyan; */
+}
+
+.resetText{
+    flex-grow: 0.1;
+    font-size: 10px;
+    color: #c3c3c3;
+    font-family: sans-serif,Arial, Helvetica ;
+    align-items: flex-end;
+    
+}
+.resetButton{
+    flex-grow: 0.8;
+}
+
+.resetNewReset{
+    flex-grow: 0.5;
+    font-size: small;
+    color: #606060;
+    font-family: sans-serif,Arial, Helvetica ;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetButton>div{
+    flex-grow: 0.4;
+    height: 95%;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+    font-size: small;
+    color: #606060;
+    font-family: sans-serif,Arial, Helvetica ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+}
+
+.resetImage{
+    width: 25vw;
+    height: 15vw;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 200px;
+    position: relative;
+    left: -18%;
+    top:-20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetImage>div{
+    width: 49%;
+    height: 82%;
+    border-radius: 50%;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.4);
+    background-color: #30dbcf;
+    position: relative;
+    left: -20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetImage>div>*{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3);
+    /* background-color: #30dbcf; */
+    position: absolute;
+}
+
+.resetImage>div>div{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3);
+    background-color: #49a3d2;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    left: 70%;
+    top: 70%;
+}
+
+.resetImage>div>div>input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+
+.resetBack{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top:94%;
+    left: 3%;
+}
+

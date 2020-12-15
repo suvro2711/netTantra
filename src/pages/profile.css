@@ -1,0 +1,246 @@
+.profileDiv{
+    width: 60%;
+    height: 70%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profilePicture{
+    width: 16vw;
+    height:16vw;
+    background-color: #30dbcf;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+    border-radius:50%;
+    position: absolute;
+    top: -20%;
+    left: -8%;
+    min-width: 150px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileName{
+    flex-basis:0;
+    flex-shrink:0;
+    flex-grow: 1;
+    /* border-style: solid;
+    border-color: black; */
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+    background-color:  #30dbcf;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:10% ;
+    flex-direction: column;
+    position: relative;
+}
+
+.profileName>input{
+    
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    padding-left:10% ;
+    font-family: sans-serif,Arial, Helvetica;
+    background-color: #30dbcf;
+    color: white;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.profileNameInput{
+    width: 60%;
+    font-size: max(2.4vw,20px);
+    flex-basis:55%;
+    flex-shrink:0;
+    left: 15%;
+}
+.profileEmailInput{
+    width: 40%;
+    flex-basis:35%;
+    flex-shrink:0;
+    font-size: max(1.1vw,15px);
+    top: -10%;
+    left: 20%;
+}
+
+.profilEditButton{
+    position: absolute;
+    height: 3.3vw;
+    width: 3.3vw;
+    background-color: whitesmoke ;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    top: 18%;
+    left: 92%;
+    min-width: 30px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictureEditButton{
+    position: absolute;
+    height: 3.3vw;
+    width: 3.3vw;
+    background-color: whitesmoke ;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    top: 18%;
+    left: 20%;
+    min-width: 30px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileContent{
+    flex-basis:0;
+    flex-shrink:0;
+    flex-grow: 4;
+    display: flex;
+    justify-content: flex-end;
+    /* border-style: solid;
+    border-color: black; */ 
+}
+
+.profilePicture>div{
+    width: 90%;
+    height: 90%;
+    background-color:  whitesmoke;
+    border-radius: 50%;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePicture>div>*{
+    width: 90%;
+    height: 90%;
+    background-color:  #30dbcf;
+    border-radius: 50%;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.profileInfo{
+    flex-basis:0;
+    flex-shrink:0;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profileSearch{
+    flex-basis:0;
+    flex-shrink:0;
+    flex-grow: 1;
+    border-radius: 0px 0px 20px 0px;
+    background-color: whitesmoke;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.profileInfoTable{
+    /* border-color: black;
+    border-style:solid; */
+    width: 90%;
+    height:80%;
+    position: relative;
+    top: 5%;
+}
+/* .profileInfoTable>tr{
+    border-color: black;
+    border-style:solid;
+}
+
+.profileInfoTable>tr>td{
+    border-color: black;
+    border-style:solid;
+} */
+
+.profileButton{
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif,Arial, Helvetica;
+    font-size: small;
+    color: #808080  ;
+    background-color: white;
+}
+
+.profileUpdateButton{
+    margin-left: 30%;
+}
+
+.profileLogOff{
+    background-color: white;
+    position: absolute;
+    width: 10%;
+    height: 7%;
+    top:3%;
+    left:87%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.profileLogOff>img{
+    width: 2.6vw;
+    height:2.6vw;
+    border-radius: 50%;
+    margin-left:5% ;
+    margin-right:18%;
+
+}
+
+.profileLogOff>span{
+    width: 2.6vw;
+    height:2.6vw;
+    border-radius: 50%;
+    margin-left:5% ;
+    margin-right:18%;
+
+}
+
+.profileLogOff>div{
+    font-family: sans-serif,Arial, Helvetica;
+    font-size: small;
+    color: #808080  ;
+    position: relative;
+    top: 2%;
+}
+
+.profileBackButton{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 92%;
+    left:2%
+}
+
+.selectGender{
+    width: 50%;
+    height: 50%;
+}
+
+

@@ -1,0 +1,34 @@
+/* .mainDiv{
+  width: 100vw;
+  he
+} */
+
+.propic{
+  width: 20vw;
+  height:20vw;
+  border-radius: 200px;
+  border-color: #282c34;
+  border-style: solid;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.propic>img{
+  width:100%;
+  height:100%;
+}
+
+.floater{
+  width: 100vw;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.greenButton:hover{
+  background-color:#16AA8C;
+  color: white;
+}

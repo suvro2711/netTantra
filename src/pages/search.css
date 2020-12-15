@@ -1,0 +1,66 @@
+ .searchBox{
+    width: 98%;
+    height: 100%;
+    /* border-style: solid;
+    border-color: black ; */
+    border-radius: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .searchInputBox{
+    flex-basis:20%;
+    flex-shrink:0;
+    flex-grow: 0;
+    /* border-style: solid;
+    border-color: black ; */
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+ }
+
+ .searchInputBox>*{
+    /* border-style: solid;
+    border-color: black ; */
+ }
+
+ .searchInputText{
+    flex-basis:0;
+    flex-shrink:0;
+    flex-grow: 1;
+    margin-left: 5%;
+    font-size: small;
+    color: #a2a2a2;
+    font-family: sans-serif,Arial, Helvetica ;
+    position: relative;
+    top: 15%;
+    left:3%
+ 
+ }
+
+ .searchInput{
+    flex-basis:0;
+    flex-shrink:0;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .searchInput>input{
+    width: 85%;
+    height: 70%;
+    border-radius: 10px;
+    border: "none";
+    outline: "none";
+    padding-left: 15px;
+    font-size: small;
+    color: #606060;
+
+ }
+ .searchDiv{
+    flex-basis:70%;
+    flex-shrink:0;
+    flex-grow: 0;
+    overflow: auto;
+ }
